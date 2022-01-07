@@ -1,0 +1,44 @@
+package set;
+
+import java.util.LinkedHashSet;
+import java.util.Set;
+
+public class LinkedHashSets {
+
+	public static void main(String[] args) {
+		
+			Set<Integer> set = new LinkedHashSet<>();
+			
+			set.add(2);
+			set.add(10);
+			set.add(5);
+			set.add(12);
+			set.add(15);
+			System.out.println(set);
+			
+			System.out.println();
+			
+			set.remove(5);
+			System.out.println(set);
+			
+			System.out.println();
+			
+			System.out.println(set.contains(0));
+			System.out.println(set.contains(10));
+	
+			System.out.println();
+			
+			System.out.println(set.isEmpty());
+			
+			System.out.println();
+			
+			System.out.println(set.size());
+			
+			System.out.println();
+			
+			set.clear();
+			System.out.println(set);
+		
+	}
+
+}
